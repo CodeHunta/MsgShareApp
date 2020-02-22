@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
 
             val intent = Intent (this, SecondActivity::class.java)
+            intent.putExtra("key", msg)
             startActivity(intent)
         }
 
