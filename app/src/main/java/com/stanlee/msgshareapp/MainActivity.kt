@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnRecycler.setOnClickListener {
-            val intent = Intent(this, DestinationActivity::class.java)
+            val intent = Intent(this, DestinationsActivity::class.java)
             startActivity(intent)
         }
 
