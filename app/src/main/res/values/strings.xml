@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Msg Share App</string>
-    <string name="hello_world">Hello World! I am CodeHunta</string>
     <string name="show_toast">Show Toast</string>
     <string name="enter_your_message_here">Enter your Message Here!</string>
     <string name="send_data">Send Data</string>

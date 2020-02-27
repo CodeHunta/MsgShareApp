@@ -4,7 +4,7 @@ data class Destination(var title: String)
 
 object Places {
 
-    val destinations = listOf<Destination>(
+    val destinations = listOf(
         Destination("Abia"),
         Destination("Abuja"),
         Destination("Anambra"),
