@@ -4,4 +4,8 @@
     <string name="show_toast">Show Toast</string>
     <string name="enter_your_message_here">Enter your Message Here!</string>
     <string name="send_data">Send Data</string>
+    <string name="share">Share</string>
+    <string name="recycler_view_demo">Recycler View Demo</string>
+    <string name="title">Title</string>
+    <string name="todo">TODO</string>
 </resources>

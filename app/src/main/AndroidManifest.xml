@@ -21,11 +21,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SecondActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-            </intent-filter>
-        </activity>
+        <activity android:name=".SecondActivity"/>
+
+        <activity android:name=".DestinationActivity"/>
     </application>
 
 </manifest>
