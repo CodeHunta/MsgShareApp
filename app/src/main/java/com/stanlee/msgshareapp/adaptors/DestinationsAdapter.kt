@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.stanlee.msgshareapp.R
 import com.stanlee.msgshareapp.models.Destination
+import com.stanlee.msgshareapp.showToast
 import kotlinx.android.synthetic.main.list_item.view.*
 
 class DestinationsAdapter(
@@ -37,11 +38,7 @@ class DestinationsAdapter(
 
         init {
             itemView.setOnClickListener {
-                Toast.makeText(
-                    context,
-                    currentDestination!!.title + " State was clicked!",
-                    Toast.LENGTH_SHORT
-                ).show()
+                context.showToast(currentDestination!!.title + " State was clicked!", Toast.LENGTH_LONG)
             }
 
             itemView.imgShare.setOnClickListener {
