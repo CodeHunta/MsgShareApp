@@ -33,8 +33,8 @@ class DestinationsAdapter(
 
     inner class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-        var currentDestination: Destination? = null
-        var currentPosition: Int = 0
+        private var currentDestination: Destination? = null
+        private var currentPosition: Int = 0
 
         init {
             itemView.setOnClickListener {
