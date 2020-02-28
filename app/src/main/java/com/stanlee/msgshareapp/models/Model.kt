@@ -1,4 +1,4 @@
-package com.stanlee.msgshareapp
+package com.stanlee.msgshareapp.models
 
 data class Destination(var title: String)
 

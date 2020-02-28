@@ -1,10 +1,11 @@
-package com.stanlee.msgshareapp
+package com.stanlee.msgshareapp.activities
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import com.stanlee.msgshareapp.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -20,9 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         btnSendMsg.setOnClickListener {
             val msg: String = etUserMsg.text.toString()
-            Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
-
-            val intent = Intent (this, SecondActivity::class.java)
+            val intent = Intent(this, SecondActivity::class.java)
             intent.putExtra("key", msg)
             startActivity(intent)
         }
@@ -31,6 +30,5 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, DestinationsActivity::class.java)
             startActivity(intent)
         }
-
     }
 }
